@@ -15,3 +15,7 @@ public class Estudiante {
         System.out.println("Guardando estudiante en base de datos");
     }
 }
+public CarrerasPadre getCarrera() {
+    return carrera;
+}
+}

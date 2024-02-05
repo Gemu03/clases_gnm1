@@ -1,7 +1,7 @@
-package co.edu.unisabana.clases.example.solid.service;
+package solid.service;
 
 
-import co.edu.unisabana.clases.example.solid.modelo.Envio;
+import solid.modelo.Envio;
 
 public class EmailOutlook {
 
