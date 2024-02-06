@@ -8,9 +8,13 @@ public class EnvioMaterial {
   public void enviarMaterialEstudiante(Estudiante estudiante) {
 
     Envio envio = new Envio();
+    EmailOutlook email = new EmailOutlook(); //Envia confirmacion
+    email.enviarEmail(envio);//Envia confirmación
 
-    envio.saludoDirector = estudiante.carrera.getSaludoDirector();
-    EmailOutlook email = new EmailOutlook();
-    email.enviarEmail(envio);
+
+
+
+
+
     }
   }

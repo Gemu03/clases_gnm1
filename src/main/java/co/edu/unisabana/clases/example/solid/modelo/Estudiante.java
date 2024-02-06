@@ -22,7 +22,7 @@ public class Estudiante {
 
 
     public CarrerasPadre getCarrera(){
-        return null;
+        return carrera;
     }
 }
 
