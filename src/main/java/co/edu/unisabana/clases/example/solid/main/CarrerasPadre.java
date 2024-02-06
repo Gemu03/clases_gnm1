@@ -6,4 +6,8 @@ public abstract class CarrerasPadre{
 
     abstract List<String> obtenerMaterias();
     public abstract String getCarrera();
+
+    public String getSaludoDirector() {
+        return null;
+    }
 }

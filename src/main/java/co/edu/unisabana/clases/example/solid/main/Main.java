@@ -11,8 +11,11 @@ public class Main {
             new Estudiante("Liliana", new Industrial())
         };
         verMateriasEstudiantes(listadoEstudiantes);
-        EnvioMaterial material = new EnvioMaterial();
-        material.enviarMaterialEstudiante(new Estudiante("Daniel", new Informatica()));
+
+        for (Estudiante estudiante : listadoEstudiantes) {
+            EnvioMaterial material = new EnvioMaterial();
+            material.enviarMaterialEstudiante(estudiante);
+        }
     }
 
     public static void verMateriasEstudiantes(Estudiante[] estudiantes) {
