@@ -1,5 +1,7 @@
 package co.edu.unisabana.clases.example.solid.modelo;
 
+import co.edu.unisabana.clases.example.solid.main.CarrerasPadre;
+
 public class Estudiante {
 
     public String nombre;
