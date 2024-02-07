@@ -3,8 +3,6 @@ package co.edu.unisabana.clases.example.solid.main;
 import co.edu.unisabana.clases.example.solid.modelo.Estudiante;
 import co.edu.unisabana.clases.example.solid.service.EnvioMaterial;
 
-import java.util.List;
-
 public class Main {
     public static void main(String[] args) {
         Estudiante[] listadoEstudiantes = {

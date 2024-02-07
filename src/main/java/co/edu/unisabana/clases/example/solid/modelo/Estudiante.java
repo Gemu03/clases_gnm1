@@ -6,7 +6,6 @@ public class Estudiante {
 
     public String nombre;
     public CarrerasPadre carrera;
-    public Object getCarrera;
 
     public Estudiante(String nombre, CarrerasPadre carrera) {
         this.nombre = nombre;
