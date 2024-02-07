@@ -1,8 +1,6 @@
 package co.edu.unisabana.clases.example.solid.modelo;
 
 import co.edu.unisabana.clases.example.solid.main.CarrerasPadre;
-import co.edu.unisabana.clases.example.solid.service.EnvioCarreras;
-import co.edu.unisabana.clases.example.solid.service.EnvioMaterial;
 
 public class Estudiante {
 

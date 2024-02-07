@@ -11,6 +11,11 @@ public class Industrial extends CarrerasPadre {
     }
 
     @Override
+    public String getSaludoDirector() {
+        return "Roy envia saludos";
+    }
+
+    @Override
     List<String> obtenerMaterias() {
         return List.of("Fisica", "Quimica", "Matematicas");
     }

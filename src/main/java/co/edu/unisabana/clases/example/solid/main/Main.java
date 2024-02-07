@@ -3,6 +3,8 @@ package co.edu.unisabana.clases.example.solid.main;
 import co.edu.unisabana.clases.example.solid.modelo.Estudiante;
 import co.edu.unisabana.clases.example.solid.service.EnvioMaterial;
 
+import java.util.List;
+
 public class Main {
     public static void main(String[] args) {
         Estudiante[] listadoEstudiantes = {
@@ -11,6 +13,7 @@ public class Main {
             new Estudiante("Liliana", new Industrial())
         };
         verMateriasEstudiantes(listadoEstudiantes);
+        saludoDirector(listadoEstudiantes);
 
         for (Estudiante estudiante : listadoEstudiantes) {
             EnvioMaterial material = new EnvioMaterial();
@@ -25,5 +28,12 @@ public class Main {
             System.out.println(estudiante.carrera.obtenerMaterias());
         }
 
+    }
+
+    public static void saludoDirector(Estudiante[] estudiantes){
+
+        for (Estudiante estudiante : estudiantes) {
+            System.out.println("\nEnvio: Mensaje del director de "+estudiante.carrera.getCarrera()+", "+estudiante.carrera.getSaludoDirector());
+        }
     }
 }

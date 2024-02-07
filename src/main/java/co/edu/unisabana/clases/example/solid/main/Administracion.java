@@ -11,6 +11,11 @@ public class Administracion extends CarrerasPadre {
     }
 
     @Override
+    public String getSaludoDirector() {
+        return "Andres envia saludos";
+    }
+
+    @Override
     List<String> obtenerMaterias() {
         return List.of("Negocios", "Administracion I", "Historia de la Administracion");
     }

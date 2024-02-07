@@ -1,9 +1,11 @@
 package co.edu.unisabana.clases.example.solid.service;
 
+import co.edu.unisabana.clases.example.solid.main.Administracion;
+
 import java.util.ArrayList;
 import java.util.List;
 
-public class MaterialesAdministracion implements EnvioCarreras{
+public class MaterialesAdministracion extends Administracion implements EnvioCarreras {
 
 
     @Override
@@ -14,8 +16,4 @@ public class MaterialesAdministracion implements EnvioCarreras{
         return materiales;
     }
 
-    @Override
-    public String getSaludoDirector() {
-        return "Andres envia saludos";
-    }
 }
