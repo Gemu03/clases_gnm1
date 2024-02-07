@@ -9,7 +9,7 @@ public class EnvioMaterial {
 
     Envio envio = new Envio();
     EmailOutlook email = new EmailOutlook(); //Envia confirmacion
-    email.enviarEmail(envio);//Envia confirmación
+    email.enviarEmail(envio);//Envia confirmación nn
 
 
 
